@@ -73,18 +73,19 @@ i2c:
 -->
 #MeArm Pi HAT
 
-###The MeArm Pi HAT is a joystick controller board for the MeArm Pi Robotic Arm Kit
 
-The MeArm Pi HAT provides the following:
+### El MeArm Pi HAT es una placa controladora de joystick para el kit de brazo robótico MeArm Pi
 
- * An 8 bit I2C ADC (address 0x48) connected to two analogue joysticks
- * Access to the push buttons of the joysticks on GPIO
- * An RGB LED for output
- * A 6 pin port to connect to the servos on the arm
+MeArm Pi HAT proporciona lo siguiente:
 
-Power can be supplied to the Pi through the HAT or direct in to the Pi, but the servos are only supplied through the HAT to avoid strain on the Pi power supply.
+ * Un ADC I2C de 8 bits (dirección 0x48) conectado a dos joysticks analógicos
+ * Acceso a los botones de los joysticks en GPIO
+ * Un LED RGB para salida
+ * Un puerto de 6 pines para conectar a los servos en el brazo
 
-The pinout of the 6 pin connector is:
+La alimentación se puede suministrar a Raspberry Pi a través del HAT o directamente a Raspberry Pi, pero los servos solo se suministran a través del HAT para evitar tensión en la fuente de alimentación de Raspberry Pi.
+
+El pinout del conector de 6 pin es:
 
 <table>
   <tr>
@@ -99,10 +100,10 @@ The pinout of the 6 pin connector is:
   </tr>
 </table>
 
-Additionally the I2C and power lines are brought out on to a header for easy expansion with the following pinout from top to bottom:
+
+Además, el I2C y las líneas eléctricas se colocan en un encabezado para una fácil expansión con el siguiente pinout de arriba a abajo:
 
 1. SDA
 2. 3V3
 3. SCL
 4. GND
-

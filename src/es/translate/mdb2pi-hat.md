@@ -49,8 +49,8 @@ i2c:
 -->
 # MDB2Pi HAT
 
-The MDB2Pi is a Raspberry Pi HAT which can serve as a MDB master (VMC), as MDB cashless peripheral, or as tracer for MDB Vending Machines. It takes care of the MDB specific 9-bit format, electrical and timing constraints. It forwards the MDB payload to the Raspberry Pi UART using a simple serial protocol. The MDB2Pi is powered through the MDB bus (10...42V regulated or unregulated supply) and back-powers the Raspberry Pi with up to 2.5A at 5V. Therefore, no separate power supply is required. Furthermore, the MDB2Pi contains a Real Time Clock (RTC), buffered by a super capacitor.
+El MDB2Pi es un HAT de Raspberry Pi que puede servir como un maestro MDB (VMC), como un periférico sin efectivo MDB o como un rastreador para máquinas expendedoras MDB. Se ocupa del formato específico de MDB de 9 bits, las restricciones eléctricas y de temporización. Reenvía la carga útil de MDB a la Raspberry Pi UART utilizando un protocolo en serie simple. El MDB2Pi se alimenta a través del bus MDB (suministro regulado o no regulado de 10 ... 42 V) y retroalimenta Raspberry Pi con hasta 2.5 A a 5 V. Por lo tanto, no se requiere una fuente de alimentación separada. Además, el MDB2Pi contiene un reloj de tiempo real (RTC), protegido por un supercondensador.
 
-A housing for the MDB2Pi (and the MDB2Pi itself) is available at the Abrantix Web Shop: http://blog.abrantix.com/webshop/product/mdb-to-raspberrypi/. Alternatively, you can download a free 3D model here: http://www.thingiverse.com/thing:2209661
+Una carcasa para el MDB2Pi (y el propio MDB2Pi) está disponible en la tienda web de Abrantix: http://blog.abrantix.com/webshop/product/mdb-to-raspberrypi/. Alternativamente, puede descargar un modelo 3D gratuito aquí: http://www.thingiverse.com/thing:2209661
 
-For Configuration and further information, please see http://blog.abrantix.com/webshop/mdb-to-raspberry-pi-configuration/
+Para la configuración y más información, consulte http://blog.abrantix.com/webshop/mdb-to-raspberry-pi-configuration/

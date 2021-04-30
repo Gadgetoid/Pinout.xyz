@@ -35,9 +35,10 @@ pin:
 -->
 # RaspBee Zigbee add-on board
 
-The add-on board adds full Zigbee capabilities to a Raspberry Pi, to use lights, sensors and switches from various vendors.
 
-* Supports Zigbee 3.0, Zigbee Light Link (ZLL) and Zigbee Home Automation (ZHA) devices
-* Supports up to 200 devices
-* On board power-amplifier for a signal-range of max. 200 m (650ft) in free line of sight
-* Supported by the most popular open source home automation systems
+La placa añade capacidades completas de Zigbee a una Raspberry Pi, para usar luces, sensores e interruptores de varios proveedores.
+
+* Compatible con dispositivos Zigbee 3.0, Zigbee Light Link (ZLL) y Zigbee Home Automation (ZHA)
+* Admite hasta 200 dispositivos
+* Amplificador de potencia a bordo para un rango de señal de máx. 200 m (650 pies) en línea de visión libre
+* Compatible con los sistemas de automatización del hogar de código abierto más populares
